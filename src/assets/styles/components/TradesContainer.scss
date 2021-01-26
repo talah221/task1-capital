@@ -1,0 +1,55 @@
+.trades-container {
+    width: 60%;
+    background-color: #262626;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 80px;
+    .trades-btn {
+        color: white;
+        background-color: #313131;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        height: 30px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        svg {
+            font-size: 0.8rem;
+        }
+    }
+    .trades-nav {
+        background-color: rgb(50, 50, 50);
+        height: 30px;
+        font-size: 12px;
+        color: white;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        color: gray;
+        .nav-btns {
+            margin: 0 15px;
+            button {
+                color: gray;
+                background-color: #242424;
+                border: 0;
+                outline: none;
+                cursor: pointer;
+            }
+        }
+        select {
+            color: gray;
+            background-color: #242424;
+            border: 0;
+        }
+    }
+    .trades-table-container {
+        background-color: #0A0A0A;
+        color: white;
+        height: 100%;
+        p {
+            color: white;
+        }
+    }
+}
